@@ -1,7 +1,9 @@
-# Apache HTTP-Server 2.4.49-2.4.50 Path Traversal & Remote Code 
+# Apache HTTP-Server 2.4.49-2.4.50 Path Traversal & Remote Code Execution
+## Description
+This is a PoC script for CVE-2021-41773 & CVE-2021-42013
 ## Usage: 
 ```
-python3 exploit.py <rhost> <rport> <option> <cmd/file-absolute-path>
+python3 exploit.py <rhost> <rport> <option> <cmd> | <file-absolute-path>
 ```
 ## Example:
 ### Remote Code Execution
