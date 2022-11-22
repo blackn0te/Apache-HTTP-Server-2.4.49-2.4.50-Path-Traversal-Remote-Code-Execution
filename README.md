@@ -8,8 +8,10 @@ python3 exploit.py <rhost> <rport> <option> <cmd/file-absolute-path>
 ```
 python3 exploit.py 127.0.0.1 8080 rce 'id'
 ```
+![rce](img/rce.png)
 
 ### Path Traversal
 ```
 python3 exploit.py 127.0.0.1 8080 file '/etc/passwd'
 ```
+![path_traversal](img/path-trav.png)
